@@ -1,42 +1,25 @@
 ---
 layout: post
-title: "Welcome to Lagrange!"
-author: "Paul Le"
-categories: journal
+title:  "Rust的世界"
+date:   2023-03-03
+author: Easyfun
+categories: Rust
 tags: [documentation,sample]
 image: mountains.jpg
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
 
-## Getting Started
+學習Rust的用法
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+## Rust是什麼？
 
-## Example Content
+Rust最早是Mozilla的開發專案，到2009年得到資助並加深開發，在2015年發佈1.0版。
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+### Rust運行效率
 
-## Questions?
+Rust最大缺點是學習曲線相當陡，但不在於語言特性，主要是在實戰中如何融會貫通的運用，以及遇到了坑(生命週期,借用錯誤,自引用等等)如何迅速、正確解決。
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
 
-## More Jekyll!
+### Rust開發效率
 
-### Millennial
-
-Millennial is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for a publication or blog.
-
-Feel free to check out <a href="https://lenpaul.github.io/Millennial/" target="_blank">the demo</a>, where you’ll also find instructions on <a href="https://lenpaul.github.io/Millennial/documentation/getting-started.html">how to use install</a> and use the theme.
-
-### Portfolio Jekyll Theme
-
-This is a Jekyll theme built using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). The purpose of this theme is to provide a clean and simple website for your portfolio. Emphasis is placed on your projects, which are shown front and center on the home page.
-
-Everything that you will ever need to know about this Jekyll theme is included in [the repository](https://github.com/LeNPaul/portfolio-jekyll-theme), which you can also find in [the demo site](https://lenpaul.github.io/portfolio-jekyll-theme/).
-
-### Jekyll Starter Kit
-
-The Jekyll Starter Kit is a simple framework for starting your own Jekyll project using all of the best practices that I learned from building my other Jekyll themes.
-
-Feel free to check out <a href="https://github.com/LeNPaul/jekyll-starter-kit" target="_blank">the GitHub repository</a>, where you’ll also find instructions on how to use install and use the theme.
+Rust在開發最初手寫項目時，開發速度會慢於Go,Java等語言，但熟悉標準庫,熟悉生命週期和所有權的常用解決方法，開發效率將大幅提升，而且原生就能寫出高質量,安全,高效的程式碼。
