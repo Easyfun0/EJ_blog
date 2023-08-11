@@ -7,7 +7,6 @@ categories: Rust
 cover:  "/assets/cover-thumb.png"
 tags: [documentation,sample]
 image: Rustacean.png
-
 ---
 
 ## 變數與可變性
