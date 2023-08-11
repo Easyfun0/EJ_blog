@@ -11,7 +11,6 @@ permalink: /about
 
 ### Example Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
 
 ### Questions?
 
