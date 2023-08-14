@@ -5,7 +5,7 @@ date:   2023-03-09
 author: Easyfun
 categories: Rust
 tags: [documentation,sample]
-image: Rustacean.png
+image: Rustback.png
 ---
 
 
