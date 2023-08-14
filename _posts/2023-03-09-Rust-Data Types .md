@@ -4,7 +4,6 @@ title:  "Data Types"
 date:   2023-03-09
 author: Easyfun
 categories: Rust
-cover:  "/assets/cover-thumb.png"
 tags: [documentation,sample]
 image: Rustacean.png
 ---
