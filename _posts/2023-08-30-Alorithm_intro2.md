@@ -137,7 +137,7 @@ fn main() {
   let nums = vec![1,2,3];
   let subsets = subsets(nums.clone());
 
-  if subsets in subsets {{
+  if subsets in subsets {
     println!("{:?}", subset);
   }
 }
