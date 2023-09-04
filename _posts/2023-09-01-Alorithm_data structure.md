@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "演算法簡介"
+title:  "資料結構"
 date:   2023-08-30
 author: Easyfun
 categories: Alorithm
@@ -146,4 +146,4 @@ fn main() {
 
 22 23 24
 
-25 26 27
+25 26 26
