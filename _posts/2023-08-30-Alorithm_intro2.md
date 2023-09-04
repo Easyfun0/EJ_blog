@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "演算法簡介"
+title:  "演算法簡介二"
 date:   2023-08-30
 author: Easyfun
 categories: Alorithm
