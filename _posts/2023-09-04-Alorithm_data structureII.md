@@ -23,6 +23,16 @@ image: cover-thumb.png
 
 ![alt text]({{ site.baseurl }}/assets/img/linked.jpg "Profile Picture"){:.profile}
 
+單向鏈結具有'值'和'下一個'字段指向節點行中的下節點，可對單向連結執行的操作包括插入、刪除和遍歷
+
+另一個是「雙向鏈結串列」(Doubly Linked List)。由一組稱為節點的順序記錄組成，每個節點包含三個字段:兩個鏈接字段和一個數據字段。開始和結束前一個和下一個鏈傑分別指向終止符，通常是空節點。
+
+![alt text]({{ site.baseurl }}/assets/img/linked2.jpg "Profile Picture"){:.profile}
+
+
+
+
+
 他的優點是不需先知道資料型別大小，充分利用動態記憶體管理。但也因為動態配置記憶體因素會也一些缺點，空間使用過大、較差的CPU快取、不允許隨機存取。
 
 ### 堆疊(Stack)
@@ -39,6 +49,8 @@ image: cover-thumb.png
 
 堆疊的基本運作:
 
+| 堆疊 |   |
+| --- | --- |
 | create | 建立一個空堆疊 |
 | push | 存放頂端資料，並傳回新堆疊 |
 | pop | 刪除頂端資料，並傳回新堆疊 |
