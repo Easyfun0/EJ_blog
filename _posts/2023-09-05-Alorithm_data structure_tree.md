@@ -90,17 +90,3 @@ image: treebg.jpg
 
 ![alt text]({{ site.baseurl }}/assets/img/tree4.jpg "Profile Picture"){:.profile}
 
-
-![alt text]({{ site.baseurl }}/assets/img/tree3.jpg "Profile Picture"){:.profile}
-
-
-![alt text]({{ site.baseurl }}/assets/img/tree3.jpg "Profile Picture"){:.profile}
-
-
-![alt text]({{ site.baseurl }}/assets/img/tree3.jpg "Profile Picture"){:.profile}
-
-
-![alt text]({{ site.baseurl }}/assets/img/tree3.jpg "Profile Picture"){:.profile}
-
-
-
