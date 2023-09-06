@@ -5,7 +5,7 @@ date:   2023-09-05
 author: Easyfun
 categories: Alorithm
 tags: [documentation,sample]
-image: cover-thumb.png
+image: treebg.jpg
 ---
 
 今天介紹資料結構中的樹狀結構，或稱樹狀圖(Tree Diagram)是一種將階層式的構造性質，以圖像方式呈現出來的方法。
