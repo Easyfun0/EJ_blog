@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "資料結構III"
+title:  "樹狀結構"
 date:   2023-09-05
 author: Easyfun
 categories: Alorithm
@@ -72,8 +72,25 @@ image: cover-thumb.png
 ![alt text]({{ site.baseurl }}/assets/img/linkn.jpg "Profile Picture"){:.profile}
 
 
+這是一個以A為根節點的二元樹，包含了B,C為根節點的兩棵互斥的左子樹與右子樹。
+
+![alt text]({{ site.baseurl }}/assets/img/tree3.jpg "Profile Picture"){:.profile}
+
+那這兩個左右子樹都是屬於同一個樹狀結構，不過卻是兩顆不同的二元樹結構，因為二元樹必須考慮到前後次序的問題。
+
+![alt text]({{ site.baseurl }}/assets/img/tree4.jpg "Profile Picture"){:.profile}
 
 
+![alt text]({{ site.baseurl }}/assets/img/tree3.jpg "Profile Picture"){:.profile}
+
+
+![alt text]({{ site.baseurl }}/assets/img/tree3.jpg "Profile Picture"){:.profile}
+
+
+![alt text]({{ site.baseurl }}/assets/img/tree3.jpg "Profile Picture"){:.profile}
+
+
+![alt text]({{ site.baseurl }}/assets/img/tree3.jpg "Profile Picture"){:.profile}
 
 
 
