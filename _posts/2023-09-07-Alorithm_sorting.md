@@ -71,17 +71,16 @@ fn main() {
     for i in 0..n - 1 {
         for j in 0..n - 1 - i {
             if arr[j] > arr[j + 1] {
-                // 交换arr[j]和arr[j + 1]的值
+                
                 let temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
-                println!("第{}次交換: {:?}", i + 1, arr);
+                println!("每次置換的數列:{:?}", i + 1, arr);
             }
         }
     }
-    println!("排序後的數列: {:?}", arr);
+    println!("最後排序的數列:{:?}", arr);
 }
 
 {% endhighlight %}
 
-       
