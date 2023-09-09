@@ -120,50 +120,20 @@ fn main() {
 
 ![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
 
-先排序5,4
+先排序(5,4)，這邊(3,9)所以不動，再來排序(8,6)，接著(7,2)
 
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
-
-這邊3,9所以不動
-
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
-
-再來排序8,6
-
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
-
-接著7,2
-
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
-
+![alt text]({{ site.baseurl }}/assets/img/shell1.jpg "Profile Picture"){:.profile}
 
 2.算出第二個gap為8/2 * 2=2
 
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/img/shell2.jpg "Profile Picture"){:.profile}
 
-先排序4,6所以不動
+先排序4,6所以不動，接著3,2，接著(6,5)，再來是(3,9),(6,8)所以不動，接著(9,7)
 
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
-
-接著3,2
-
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
-
-接著(6,5)
-
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
-
-再來是(3,9),(6,8)所以不動
-
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
-
-接著(9,7)
-
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
 
 3.算出第三次。gap為8/2*2*2=1，但前一次結果已經很接近排序完成，這邊就可以完成。
 
-![alt text]({{ site.baseurl }}/assets/img/insert.jpg "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/img/shell3.jpg "Profile Picture"){:.profile}
 
 
 範例:
