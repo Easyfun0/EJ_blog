@@ -6,7 +6,7 @@ author: Easyfun
 categories: Alorithm
 cover:  "/assets/cover-thumb.png"
 tags: [documentation,sample]
-image: searchbg.png
+image: searchbg.jpg
 ---
 
 搜尋指的是從資料檔案找出滿足某些條件的記錄動作，用以搜尋的條件鍵稱為鍵值(key)，如同排序所用的鍵值一樣。
