@@ -9,7 +9,7 @@ tags: [documentation,sample]
 image: Rustacean.png
 ---
 
-再雜湊法中，當識別字要放入某bucket時，若該bucket已滿，則發生溢位(overflow)情況，
+再雜湊法中，當識別字要放入某bucket時，若該bucket已滿，則發生溢位(overflow)情況，那當雜湊法的理想狀況是所有的資料經過雜湊函數後都得到不同的值，但現實情況是即使所有的關鍵欄位的值都不相同，還是可能得到相同的位址，這就發生了碰撞(collision)。因此在碰撞後處理溢位的問題就是相當的重要，介紹常見的處理方法。
 
 ### 線性探測法
 
