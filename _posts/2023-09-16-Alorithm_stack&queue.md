@@ -92,7 +92,7 @@ impl<T> Node<T> {
 
 {% endhighlight %}
 
-
+---`
 
 {% highlight rust %}
 
