@@ -77,6 +77,7 @@ fn main() {
 使用鏈結串列來做堆疊的優點是隨時可以動態改變串列長度，能有效利用記憶體資源，缺點是設計時演算法較為複雜。
 
 {% highlight rust %}
+
 // 定義一個鏈結節點
 struct Node<T> {
     data: T,
@@ -91,11 +92,14 @@ impl<T> Node<T> {
 
 {% endhighlight %}
 
+
+
 {% highlight rust %}
-    // 定義堆疊結構Stack
-    pub fn new() -> Self {
-        Stack { top: None }
-    }
+
+// 定義堆疊結構Stack
+pub fn new() -> Self {
+    Stack { top: None }
+}
 
 {% endhighlight %}
 
