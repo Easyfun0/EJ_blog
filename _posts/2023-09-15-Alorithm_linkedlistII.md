@@ -170,6 +170,8 @@ impl<T> LinkedList<T> {
 在鏈結串列中的節點特性是知道下一個節點位置，卻無法知道它上一個節點的位置。
 
 實作反轉reverse:
+ 
+{% highlight rust %}
 
     pub fn reverse(&mut self){
         let mut prev = None;
