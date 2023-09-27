@@ -28,27 +28,27 @@ image: Rustacean.png
 
 這圖形追蹤結合了遞迴及堆疊兩種方法，由於會造成無窮迴圈，所以必須加入一個變數，判斷該點是否已經走訪完畢，這樣講還是很複雜吧，用圖看比較好懂走訪。
 
-![alt text]({{ site.baseurl }}/assets/img/DFS.jpg "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/img/GVE.jpg "Profile Picture"){:.profile}
 
 ①  以頂點1為起點，將相鄰的頂點2及頂點5放入堆疊。
 
-![alt text]({{ site.baseurl }}/assets/img/DFS2.jpg "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/img/DFS.jpg "Profile Picture"){:.profile}
 
 ②  取出頂點2，將與頂點2相鄰且未拜訪過的頂點3及頂點4放入堆疊。
 
-![alt text]({{ site.baseurl }}/assets/img/DFS3.jpg "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/img/DFS2.jpg "Profile Picture"){:.profile}
 
 ③  取出頂點3，將與頂點3相鄰且未拜訪過的頂點4及頂點5放入堆疊。
 
-![alt text]({{ site.baseurl }}/assets/img/DFS4.jpg "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/img/DFS3.jpg "Profile Picture"){:.profile}
 
 ④  取出頂點4，將與頂點4相鄰且未拜訪過的頂點4及頂點5放入堆疊。
 
-![alt text]({{ site.baseurl }}/assets/img/DFS5.jpg "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/img/DFS4.jpg "Profile Picture"){:.profile}
 
 ⑤  取出頂點5，將與頂點5相鄰且未拜訪過的頂點放入堆疊，因為頂點5相鄰的頂點全部被拜訪過，所以無須再放入堆疊。
 
-![alt text]({{ site.baseurl }}/assets/img/DFS6.jpg "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/img/DFS5.jpg "Profile Picture"){:.profile}
 
 ⑥  將堆疊內的值取出並判斷是否已經拜訪過，直到堆疊內無節點可走為止。
 
