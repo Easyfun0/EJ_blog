@@ -127,13 +127,13 @@ fn main() {
 ![alt text]({{ site.baseurl }}/assets/img/walktree.jpg "Profile Picture"){:.profile}
 
 
-以二元樹來說，共有ABC,ACB,BAC,BCS,CAB,CAB,CBA等六種走訪法。依照二元樹特性，一率由左至右，那就會剩下3種走訪法，BAC,ABC,BCA，還有各自命名與規則。
+以二元樹來說，共有ABC,ACB,BAC,BCA,CBA,CAB等六種走訪法。依照二元樹特性，一率由左至右，那就會剩下3種走訪法，BAC,ABC,BCA，還有各自命名與規則。
 
 1.中序走訪(BAC,Preorder):左子樹->樹根->右子樹
 
 2.前序走訪(ABC,Inorder):樹根->左子樹->右子樹
 
-3.後續走訪(BAC,Postorder):左子樹->右子樹->樹根
+3.後續走訪(BCA,Postorder):左子樹->右子樹->樹根
 
 只需記住樹根的位置就不會前中後搞混。
 
