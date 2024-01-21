@@ -5,7 +5,7 @@ date:   2024-01-13
 author: Easyfun
 categories: Ruby
 tags: [documentation,sample]
-image: ts.png
+image: sea.png
 ---
 
 ## Ruby的基本方法
